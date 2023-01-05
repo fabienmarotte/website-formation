@@ -3052,7 +3052,7 @@ select.mobile-device {
 	background-origin: initial;
 	background-position: center center;
 	background-repeat: no-repeat;
-	background-size: cover;
+	background-size: auto;
 	position: relative;
 	z-index: 0;
 }
