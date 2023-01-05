@@ -3044,15 +3044,15 @@ select.mobile-device {
 }
 
 .banner-bg-1{
-	background: url(uploads/5652.jpg);
+	background: url(uploads/5652.png); /* changement d'image en spider man */
 	padding: 120px 0;
     height: 60vh;
 	background-clip: initial;
-	background-color: rgba(0, 0, 0, 0);
+	background-color: rgba(105, 94, 94, 0);
 	background-origin: initial;
 	background-position: center center;
 	background-repeat: no-repeat;
-	background-size: cover;
+	background-size: auto;
 	position: relative;
 	z-index: 0;
 }
