@@ -3605,6 +3605,14 @@ select.mobile-device {
     margin-bottom: 50px;
 }
 
+#image_card{
+    position: absolute;
+    top: 80px;
+    right: 50px;
+     width: auto;
+    height: auto; 
+}
+
 @media screen and (max-width: 1000px) {
     .illustrationhorizontale {
         display: none;
