@@ -471,8 +471,6 @@ a img.aligncenter {
     background-color: #dbb12a;
     position: absolute;
     z-index: 100;
-    /*transition: transform 0.5s cubic-bezier(0.28, 0, 0.18, 1);
-    transform: translateX(-50%) scaleX(1);*/
 }
 .header_style_01 .navbar-default .navbar-nav > li a.line:hover{
     color: #dbb12a;
