@@ -3622,3 +3622,33 @@ select.mobile-device {
         display: none;
     }
 }
+
+#logo_about{
+    block-size: 79px;
+    border-radius: 21px;
+    
+}
+#logo_contact{
+    border-radius: 13px;
+}
+#logo_features{
+    block-size: 80px;
+    border-radius: 22px;
+} 
+#logo_index{
+    border-radius: 13px;
+}
+#logo_portfolio{
+    border-radius: 13px;
+}
+#logo_pircing{
+    block-size: 79px;
+    border-radius: 13px;
+}
+#logo_services{
+    border-radius: 13px;
+}
+#logo_testimonials{
+    block-size: 79px;
+    border-radius: 13px;
+}
