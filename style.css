@@ -336,7 +336,7 @@ a img.aligncenter {
 	font-size: 16px;
 }
 .email-box a:hover{
-	color: #dbb12a;
+	color: #7fa4c0;
 }
 .email-box a i{
 	padding: 0px 5px;
@@ -350,7 +350,7 @@ a img.aligncenter {
 	font-size: 16px;
 }
 .phone-box a:hover{
-	color: #dbb12a;
+	color: #7fa4c0;
 }
 .phone-box a i{
 	padding: 0px 5px;
@@ -370,7 +370,7 @@ a img.aligncenter {
 	font-size: 20px;
 }
 .social-box ul li a:hover{
-	color: #dbb12a;
+	color: #7fa4c0;
 }
 
 
@@ -468,14 +468,14 @@ a img.aligncenter {
     display: block;
     height: 2px;
     width: 100%;
-    background-color: #dbb12a;
+    background-color: #7fa4c0;
     position: absolute;
     z-index: 100;
     /*transition: transform 0.5s cubic-bezier(0.28, 0, 0.18, 1);
     transform: translateX(-50%) scaleX(1);*/
 }
 .header_style_01 .navbar-default .navbar-nav > li a.line:hover{
-    color: #dbb12a;
+    color: #7fa4c0;
     transition: all 0.8s ease;
 }
 
@@ -485,14 +485,14 @@ a img.aligncenter {
     display: block;
     height: 2px;
     width: 100%;
-    background-color: #dbb12a;
+    background-color: #7fa4c0;
     position: absolute;
     z-index: 100;
 }
 
 .header_style_01 .navbar-default .navbar-nav > li:active a,
 .header_style_01 .navbar-default .navbar-nav > li:focus a{
-    color: #dbb12a;
+    color: #7fa4c0;
 }
 /*.header_style_01 .navbar-default .navbar-nav > li a::after{
     content: "";
@@ -577,7 +577,7 @@ li.social-links a {
 }
 
 ul.main-content li a.second:hover{
-    color: #dbb12a;
+    color: #7fa4c0;
 }
 
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
@@ -639,7 +639,7 @@ ul.main-content li a.second:hover{
 }
 
 .slide-text h1 span{
-	color: #dbb12a;
+	color: #7fa4c0;
 }
 
 .slide-text h2 {
@@ -664,7 +664,7 @@ ul.main-content li a.second:hover{
 }
 
 .slider-wrapper .owl-nav .owl-prev:hover, .slider-wrapper .owl-nav .owl-next:hover {
-	background: #dbb12a;
+	background: #7fa4c0;
 }
 
 .slider-wrapper .owl-nav .owl-prev {
@@ -959,7 +959,7 @@ p.justify{
 .portfolio-filter ul li .btn-dark {
     box-shadow: none;
     background-color: transparent;
-    border: 2px solid #dbb12a !important;
+    border: 2px solid #7fa4c0 !important;
     color: #393939;
     font-weight: 500;
     font-size: 14px;
@@ -1006,7 +1006,7 @@ p.justify{
 
 .da-thumbs .pitem h5{
     position: absolute;
-    color: #dbb12a;
+    color: #7fa4c0;
     text-transform: uppercase;
     font-size: 20px;
     margin-top: 140px;
@@ -1038,7 +1038,7 @@ p.justify{
 }
 
 .da-thumbs .pitem a div img {
-    background-color: #dbb12a;
+    background-color: #7fa4c0;
     position: absolute;
     color: #ffffff !important;
     bottom: 0;
@@ -1072,7 +1072,7 @@ p.justify{
 }
 
 .desc h3 i {
-    color: #dbb12a;
+    color: #7fa4c0;
     font-size: 37px;
     vertical-align: middle;
     margin-right: 12px;
@@ -1358,7 +1358,7 @@ p.justify{
     top: -7px;
     left: -7px;
     padding: 7px;
-    box-shadow: 0 0 0 2px #dbb12a;
+    box-shadow: 0 0 0 2px #7fa4c0;
     -webkit-transition: -webkit-transform 0.2s, opacity 0.2s;
     -webkit-transform: scale(.8);
     -moz-transition: -moz-transform 0.2s, opacity 0.2s;
@@ -1471,7 +1471,7 @@ p.justify{
 }
 
 .hoverbutton {
-    background-color: #dbb12a;
+    background-color: #7fa4c0;
     position: absolute;
     color: #ffffff !important;
     top: 48%;
@@ -1703,7 +1703,7 @@ hr.invis1 {
     border-radius: 25px 0px 25px 0px;
     font-size: 26px;
 	color: #ffffff;
-    background-color: #dbb12a;
+    background-color: #7fa4c0;
     margin: 0 auto 22px;
     position: relative;
     text-align: center;
@@ -1714,7 +1714,7 @@ hr.invis1 {
 
 .features-right li i:hover,
 .features-left li i:hover {
-	background: rgba(219, 177, 42, 0.7);
+	background: #7fa4c0;
 }
 
 #features i img {
@@ -2242,7 +2242,7 @@ select.mobile-device {
 
 .footer-links a:hover,
 .footer a:hover {
-    color: #dbb12a !important;
+    color: #7fa4c0 !important;
 }
 
 .footer-links li {
@@ -2320,7 +2320,7 @@ select.mobile-device {
 }
 
 .footer-distributed .footer-company-name a:hover{
-	color: #dbb12a;
+	color: #7fa4c0;
 }
 
 
@@ -2430,11 +2430,11 @@ select.mobile-device {
 }
 
 .dmtop:hover {
-	background-color: #dbb12a;
+	background-color: #7fa4c0;
 }
 
 .icon_wrap {
-    background-color: #dbb12a;
+    background-color: #7fa4c0;
     width: 100px;
     height: 100px;
     display: block;
@@ -2450,7 +2450,7 @@ select.mobile-device {
 .stat-wrap h3 {
     font-size: 22px;
     font-weight: 600;
-    color: #dbb12a;
+    color: #7fa4c0;
     margin: 0 !important;
     padding: 0 !important;
     line-height: 1 !important;
@@ -2472,7 +2472,7 @@ select.mobile-device {
     right: 0;
     bottom: 0;
     left: 0;
-    background: #dbb12a;
+    background: #7fa4c0;
     z-index: 11000;
     position: fixed;
     display: block;
@@ -2945,9 +2945,9 @@ select.mobile-device {
 .btn-light {
     padding: 8px 20px;
     font-size: 18px;
-    border: 2px solid #dbb12a;
+    border: 2px solid #7fa4c0;
     color: #ffffff;
-    background-color: #dbb12a;
+    background-color: #7fa4c0;
 }
 
 .btn-dark {
@@ -2960,19 +2960,19 @@ select.mobile-device {
 
 .btn-light:hover,
 .btn-light:focus {
-    border-color: rgba(219, 177, 42, 0.7);
+    border-color: #7fa4c0;
     color: rgba(255, 255, 255, 1);
-	background: rgba(219, 177, 42, 0.7);
+	background: #7fa4c0;
 }
 
 .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
-    border-color: #dbb12A !important;
-    background-color: #dbb12a !important;
+    border-color: #7fa4c0 !important;
+    background-color: #7fa4c0 !important;
 }
 
 .owl-next i,
 .owl-prev i {
-    background-color: #dbb12a;
+    background-color: #7fa4c0;
     color: #393939;
     width: 60px;
     height: 60px;
@@ -2989,7 +2989,7 @@ select.mobile-device {
 
 .owl-next i:hover,
 .owl-prev i:hover {
-    background: #dbb12a;
+    background: #7fa4c0;
     color: #ffffff;
 }
 
@@ -3134,7 +3134,7 @@ select.mobile-device {
 	position: relative;
 }
 .banner h2::after {
-    background: #dbb12a;
+    background: #7fa4c0;
     content: "";
     height: 35px;
     left: -15px;
@@ -3156,7 +3156,7 @@ select.mobile-device {
 	font-weight: 500;
 }
 .page-title-link li a:hover {
-	color: #dbb12a;
+	color: #7fa4c0;
 }
 .page-title-link li::after {
     background: #fcbf02;
@@ -3196,7 +3196,7 @@ select.mobile-device {
 	padding: 10px 0px;
 }
 .about-text h3 a{
-	color: #dbb12a;
+	color: #7fa4c0;
 }
 .about-text h3 a:hover{
 	color: #332f2f;
@@ -3208,14 +3208,14 @@ select.mobile-device {
 }
 
 .about-item:hover .about-icon span{
-	color: #dbb12a;
+	color: #7fa4c0;
 	transition: all 1s ease-in-out;
 }
 
 
 
 .portfolio-filter ul li .btn-dark.active{
-	background: #dbb12a;
+	background: #7fa4c0;
 	color: #ffffff;
 }
 
@@ -3230,9 +3230,9 @@ select.mobile-device {
 
 
 :root{
-    --pricingTable-yellow: #dbb12a;
-    --pricingTable-purple: #dbb12a;
-    --pricingTable-blue: #dbb12a;
+    --pricingTable-yellow: #7fa4c0;
+    --pricingTable-purple: #7fa4c0;
+    --pricingTable-blue: #7fa4c0;
 }
 
 .pricingTable{
@@ -3553,7 +3553,7 @@ select.mobile-device {
 .address-item h3{
 	font-size: 28px;
 	font-weight: 600;
-	color: #dbb12a;
+	color: #7fa4c0;
 }
 
 
