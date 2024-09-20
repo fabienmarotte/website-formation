@@ -1,368 +1,575 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <!-- Basic -->
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
     <!-- Mobile Metas -->
-    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta
+      name="viewport"
+      content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
 
     <!-- Site Metas -->
-    <title>Sigscan - La solution de géolocalisation de matériel pour l'industrie, simple et abordable</title>
-    <meta name="description" content="Sigscan est une solution de géolocalisation de materiels industriels, simple et abordable.
+    <title>
+      Sigscan - La solution de géolocalisation de matériel pour l'industrie,
+      simple et abordable
+    </title>
+    <meta
+      name="description"
+      content="Sigscan est une solution de géolocalisation de materiels industriels, simple et abordable.
     Grâce à des cartes Bluetooth autonome en énergie et des antennes installées aux bons endroits dans les batiments,
-    vous suivez et retrouvez facilement votre materiel depuis votre mobile ou votre ordinateur.">
-    <meta name="author" content="Pyrénées Software">
+    vous suivez et retrouvez facilement votre materiel depuis votre mobile ou votre ordinateur."
+    />
+    <meta name="author" content="Pyrénées Software" />
 
-    <meta name="og:type" content="website">
-    <meta name="og:url" content="https://www.sigscan.eu">
-    <meta name="og:title" content="Solution de géolocalisation pour l'industrie, simple et abordable">
-    <meta name="og:description" content="Grâce à des cartes Bluetooth autonome en énergie et des antennes installées aux bons endroits dans les batiments,
-    vous suivez et retrouvez facilement votre materiel depuis votre mobile ou votre ordinateur.">
-    <meta name="og:image" content="https://www.sigscan.eu/images/logos/logook.png">
-    <meta name="og:site_name" content="Sigscan">
+    <meta name="og:type" content="website" />
+    <meta name="og:url" content="https://www.sigscan.eu" />
+    <meta
+      name="og:title"
+      content="Solution de géolocalisation pour l'industrie, simple et abordable"
+    />
+    <meta
+      name="og:description"
+      content="Grâce à des cartes Bluetooth autonome en énergie et des antennes installées aux bons endroits dans les batiments,
+    vous suivez et retrouvez facilement votre materiel depuis votre mobile ou votre ordinateur."
+    />
+    <meta
+      name="og:image"
+      content="https://www.sigscan.eu/images/logos/logook.png"
+    />
+    <meta name="og:site_name" content="Sigscan" />
 
     <!-- Site Icons -->
-    <link rel="shortcut icon" href="https://www.sigscan.eu/images/fav.png" type="image/x-icon"/>
-    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+    <link
+      rel="shortcut icon"
+      href="https://www.sigscan.eu/images/fav.png"
+      type="image/x-icon"
+    />
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png" />
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
     <!-- Site CSS -->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
     <!-- Responsive CSS -->
-    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/responsive.css" />
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="css/custom.css">
-    <link rel="stylesheet" media="screen and (max-width: 1000px)" href="smallscreen.css" type="text/css"/>
+    <link rel="stylesheet" href="css/custom.css" />
+    <link
+      rel="stylesheet"
+      media="screen and (max-width: 1000px)"
+      href="smallscreen.css"
+      type="text/css"
+    />
     <!-- Modernizer for Portfolio -->
     <script src="js/modernizer.js"></script>
 
     <!--[if lt IE 9]>
-    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
-
-</head>
-<body>
-
-<!-- LOADER -->
-<div id="preloader">
-    <div class="loader">
+  </head>
+  <body>
+    <!-- LOADER -->
+    <div id="preloader">
+      <div class="loader">
         <div class="loader__bar"></div>
         <div class="loader__bar"></div>
         <div class="loader__bar"></div>
         <div class="loader__bar"></div>
         <div class="loader__bar"></div>
         <div class="loader__ball"></div>
+      </div>
     </div>
-</div><!-- end loader -->
-<!-- END LOADER -->
+    <!-- end loader -->
+    <!-- END LOADER -->
 
-<div class="top-bar">
-</div>
-<header class="header header_style_01">
-    <nav class="megamenu navbar navbar-default">
+    <div class="top-bar"></div>
+    <header class="header header_style_01">
+      <nav class="megamenu navbar navbar-default">
         <div class="container-fluid">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"
-                        aria-expanded="false" aria-controls="navbar">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="index.html"><img src="images/logos/logosigscann.png" alt="image"
-                                                               class="logoheader"></a>
-            </div>
-            <div id="navbar" class="navbar-collapse collapse">
-                <ul class="nav navbar-nav navbar-right">
-                    <li><a class="active line" href="index.html">Accueil</a></li>
-                    <li class="main active line"><a href="services.html" class="main active line">Système SIGSCAN</a>
-                        <ul class="main-content">
-                            <li><a href="services.html" class="second"> Indoor Tracking</a></li>
-                            <li><a href="services.html" class="second">Fonctionnement</a></li>
-                            <li><a href="services.html" class="second">Matériel</a></li>
-                            <li><a href="services.html" class="second">Cas d'utilisation</a></li>
-                        </ul>
-                    </li>
-                    <li class="active line"><a href="contact.html" class="line">Contact</a></li>
-                    <li class="active line"><a href="https://app.sigscan.eu" class="line">Accéder à SIGSCAN</a></li>
+          <div class="navbar-header">
+            <button
+              type="button"
+              class="navbar-toggle collapsed"
+              data-toggle="collapse"
+              data-target="#navbar"
+              aria-expanded="false"
+              aria-controls="navbar"
+            >
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="index.html"
+              ><img
+                src="images/logos/logosigscann.png"
+                alt="image"
+                class="logoheader"
+            /></a>
+          </div>
+          <div id="navbar" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav navbar-right">
+              <li><a class="active line" href="index.html">Accueil</a></li>
+              <li class="main active line">
+                <a href="services.html" class="main active line"
+                  >Système SIGSCAN</a
+                >
+                <ul class="main-content">
+                  <li>
+                    <a href="services.html" class="second"> Indoor Tracking</a>
+                  </li>
+                  <li>
+                    <a href="services.html" class="second">Fonctionnement</a>
+                  </li>
+                  <li><a href="services.html" class="second">Matériel</a></li>
+                  <li>
+                    <a href="services.html" class="second">Cas d'utilisation</a>
+                  </li>
                 </ul>
-            </div>
+              </li>
+              <li class="active line">
+                <a href="contact.html" class="line">Contact</a>
+              </li>
+              <li class="active line">
+                <a href="https://app.sigscan.eu" class="line"
+                  >Accéder à SIGSCAN</a
+                >
+              </li>
+            </ul>
+          </div>
         </div>
-    </nav>
-</header>
+      </nav>
+    </header>
 
-<div class="slider-area">
-    <div class="slider-wrapper owl-carousel">
-        <div class="slider-item home-one-slider-otem slider-item-four slider-bg-one">
-            <div class="container">
-                <div class="row">
-                    <div class="slider-content-area">
-                        <div class="slide-text">
-                            <h1 class="homepage-three-title">Système de <span>Tracking</span> Indoor</h1>
-                            <h2>Retrouver des objets dans un bâtiment industriel peut s’avérer complexe. <br>L’évolution
-                                des process et l’agrandissement des usines rendent la tâche difficile.
-                                <br>Le système de tracking indoor permet de résoudre ces problématiques.
-                                <!--Mais la logistique est aujourd’hui une valeur ajoutée pour les industriels et c’est donc dans ce contexte qu’intervient la géolocalisation indoor.-->
-                            </h2>
-                        </div>
-                    </div>
+    <div class="slider-area">
+      <div class="slider-wrapper owl-carousel">
+        <div
+          class="slider-item home-one-slider-otem slider-item-four slider-bg-one"
+        >
+          <div class="container">
+            <div class="row">
+              <div class="slider-content-area">
+                <div class="slide-text">
+                  <h1 class="homepage-three-title">
+                    Système de <span>Tracking</span> Indoor
+                  </h1>
+                  <h2>
+                    Retrouver des objets dans un bâtiment industriel peut
+                    s’avérer complexe. <br />L’évolution des process et
+                    l’agrandissement des usines rendent la tâche difficile.
+                    <br />Le système de tracking indoor permet de résoudre ces
+                    problématiques.
+                    <!--Mais la logistique est aujourd’hui une valeur ajoutée pour les industriels et c’est donc dans ce contexte qu’intervient la géolocalisation indoor.-->
+                  </h2>
                 </div>
+              </div>
             </div>
+          </div>
         </div>
+      </div>
     </div>
-</div>
 
-<div id="about" class="section wb">
-    <div class="container">
+    <div id="about" class="section wb">
+      <div class="container">
         <div class="row">
-            <div class="col-md-12">
-                <div class="message-box">
-                    <h4>Solution</h4>
-                    <h2>SIGSCAN - Un système de géolocalisation indoor</h2>
-                    <p class="lead"> SIGSCAN est une solution de géolocalisation indoor qui permet de localiser un
-                        ensemble d’objets au sein d’un ou plusieurs bâtiments.</p>
-                    <div class="col-md-12">
-                        <div class="post-media wow fadeIn">
-                            <img src="uploads/illustrationverticale.png" alt=""
-                                 class="img-responsive img-rounded illustrationverticale">
-                            <img src="uploads/illustrationhorizontale.png" alt=""
-                                 class="img-responsive img-rounded illustrationhorizontale">
-                        </div>
-                    </div>
-                    <p>Pour faciliter la logistique et le suivi qualité, SIGSCAN a imaginé un système permettant de
-                        localiser un ensemble d’objets au sein d’un bâtiment.<br>
-                        La technologie Bluetooth rend cette solution personnalisable et accessible au plus grand nombre.<br><br>
-                        <strong>Les fonctionnalités de SIGSCAN :</strong><br>
-                        1. Retrouver un objet dans un batiment et connaître sa position exacte en temps réel.<br>
-                        2. Suivre l'avancement de la chaîne de production<br>
-                        3. Relevé de températures.<br>
-                        4. Etre alerté lors d'anomalies<br>
-                    </p>
-                </div><!-- end messagebox -->
-            </div><!-- end col -->
-        </div><!-- end row -->
-
-        <hr class="hr1">
-
-        <div class="row">
-            <div class="col-md-6">
+          <div class="col-md-12">
+            <div class="message-box">
+              <h4>Solution</h4>
+              <h2>SIGSCAN - Un système de géolocalisation indoor</h2>
+              <p class="lead">
+                SIGSCAN est une solution de géolocalisation indoor qui permet de
+                localiser un ensemble d’objets au sein d’un ou plusieurs
+                bâtiments.
+              </p>
+              <div class="col-md-12">
                 <div class="post-media wow fadeIn">
-                    <img src="uploads/teamwork.png" alt="" class="img-responsive img-rounded">
-                </div><!-- end media -->
-            </div><!-- end col -->
+                  <img
+                    src="uploads/illustrationverticale.png"
+                    alt=""
+                    class="img-responsive img-rounded illustrationverticale"
+                  />
+                  <img
+                    src="uploads/illustrationhorizontale.png"
+                    alt=""
+                    class="img-responsive img-rounded illustrationhorizontale"
+                  />
+                </div>
+              </div>
+              <p>
+                Pour faciliter la logistique et le suivi qualité, SIGSCAN a
+                imaginé un système permettant de localiser un ensemble d’objets
+                au sein d’un bâtiment.<br />
+                La technologie Bluetooth rend cette solution personnalisable et
+                accessible au plus grand nombre.<br /><br />
+                <strong>Les fonctionnalités de SIGSCAN :</strong><br />
+                1. Retrouver un objet dans un batiment et connaître sa position
+                exacte en temps réel.<br />
+                2. Suivre l'avancement de la chaîne de production<br />
+                3. Relevé de températures.<br />
+                4. Etre alerté lors d'anomalies<br />
+              </p>
+            </div>
+            <!-- end messagebox -->
+          </div>
+          <!-- end col -->
+        </div>
+        <!-- end row -->
 
-            <div class="col-md-6">
-                <div class="message-box">
-                    <h4>Qui sommes nous ?</h4>
-                    <h2>SIGSCAN, une technologie conçue par Pyrénées Software</h2>
+        <hr class="hr1" />
 
-                    <P>Pyrénées Software est une société spécialisée dans la création de logiciels informatiques à
-                        destination des industriels. Elle intervient notamment dans la création d’outils informatiques
-                        de gestion des usines, de maintenance des machines, de gestion des stocks…<br>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="post-media wow fadeIn">
+              <img
+                src="uploads/teamwork.png"
+                alt=""
+                class="img-responsive img-rounded"
+              />
+            </div>
+            <!-- end media -->
+          </div>
+          <!-- end col -->
 
-                        Pyrénées Software s’est aussi spécialisée dans les applications mobiles et propose aujourd’hui à
-                        ses clients, le développement d’applications mobiles « outils ».<br>
+          <div class="col-md-6">
+            <div class="message-box">
+              <h4>Qui sommes nous ?</h4>
+              <h2>SIGSCAN, une technologie conçue par Pyrénées Software</h2>
 
-                        C’est donc au contact des industriels que l’idée d’une solution de géolocalisation indoor s’est
-                        développée.
-                    </p>
+              <p>
+                Pyrénées Software est une société spécialisée dans la création
+                de logiciels informatiques à destination des industriels. Elle
+                intervient notamment dans la création d’outils informatiques de
+                gestion des usines, de maintenance des machines, de gestion des
+                stocks…<br />
 
-                    <p>Accéder au site :</p>
-                    <a href="https://www.pyrenees-software.com/"><img src="uploads/pslogo.png" alt=""
-                                                                      class="img-responsive img-rounded pslogo"></a>
-                </div><!-- end messagebox -->
-            </div><!-- end col -->
-        </div><!-- end row -->
-    </div><!-- end container -->
-</div><!-- end section -->
+                Pyrénées Software s’est aussi spécialisée dans les applications
+                mobiles et propose aujourd’hui à ses clients, le développement
+                d’applications mobiles « outils ».<br />
 
-<div class="parallax section parallax-off" data-stellar-background-ratio="0.9"
-     style="background-image:url('uploads/parallax_04.jpg');">
-    <div class="container">
+                C’est donc au contact des industriels que l’idée d’une solution
+                de géolocalisation indoor s’est développée.
+              </p>
+
+              <p>Accéder au site :</p>
+              <a href="https://www.pyrenees-software.com/"
+                ><img
+                  src="uploads/pslogo.png"
+                  alt=""
+                  class="img-responsive img-rounded pslogo"
+              /></a>
+            </div>
+            <!-- end messagebox -->
+          </div>
+          <!-- end col -->
+        </div>
+        <!-- end row -->
+      </div>
+      <!-- end container -->
+    </div>
+    <!-- end section -->
+
+    <div
+      class="parallax section parallax-off"
+      data-stellar-background-ratio="0.9"
+      style="background-image: url('uploads/parallax_04.jpg')"
+    >
+      <div class="container">
         <div class="row text-center stat-wrap">
-            <div class="col-md-3 col-sm-6 col-xs-12">
-                <span data-scroll class="global-radius icon_wrap effect-1"><img src="uploads/antenne.png" alt=""></span>
-                <p class="">1 à 2 antennes</p>
-                <h3>pour 100m²</h3>
-            </div><!-- end col -->
+          <div class="col-md-3 col-sm-6 col-xs-12">
+            <span data-scroll class="global-radius icon_wrap effect-1"
+              ><img src="uploads/antenne.png" alt=""
+            /></span>
+            <p class="">1 à 2 antennes</p>
+            <h3>pour 100m²</h3>
+          </div>
+          <!-- end col -->
 
-            <div class="col-md-3 col-sm-6 col-xs-12">
-                <span data-scroll class="global-radius icon_wrap effect-1"><img src="uploads/pc.png" alt=""></span>
-                <p class="">Une application</p>
-                <h3>Web</h3>
-            </div><!-- end col -->
+          <div class="col-md-3 col-sm-6 col-xs-12">
+            <span data-scroll class="global-radius icon_wrap effect-1"
+              ><img src="uploads/pc.png" alt=""
+            /></span>
+            <p class="">Une application</p>
+            <h3>Web</h3>
+          </div>
+          <!-- end col -->
 
-            <div class="col-md-3 col-sm-6 col-xs-12">
-                <span data-scroll class="global-radius icon_wrap effect-1"><img src="uploads/phone.png" alt=""></span>
-                <p class="">Une application</p>
-                <h3>mobile</h3>
-            </div><!-- end col -->
+          <div class="col-md-3 col-sm-6 col-xs-12">
+            <span data-scroll class="global-radius icon_wrap effect-1"
+              ><img src="uploads/phone.png" alt=""
+            /></span>
+            <p class="">Une application</p>
+            <h3>mobile</h3>
+          </div>
+          <!-- end col -->
 
-            <div class="col-md-3 col-sm-6 col-xs-12">
-                <span data-scroll class="global-radius icon_wrap effect-1"><img src="uploads/settings.png"
-                                                                                alt=""></span>
-                <p class="">Possibilité d'intégration</p>
-                <h3>dans votre ERP</h3>
-            </div><!-- end col -->
-        </div><!-- end row -->
-    </div><!-- end container -->
-</div><!-- end section -->
+          <div class="col-md-3 col-sm-6 col-xs-12">
+            <span data-scroll class="global-radius icon_wrap effect-1"
+              ><img src="uploads/settings.png" alt=""
+            /></span>
+            <p class="">Possibilité d'intégration</p>
+            <h3>dans votre ERP</h3>
+          </div>
+          <!-- end col -->
+        </div>
+        <!-- end row -->
+      </div>
+      <!-- end container -->
+    </div>
+    <!-- end section -->
 
-<div id="features" class="section lb">
-    <div class="container">
+    <div id="features" class="section lb">
+      <div class="container">
         <div class="section-title text-center">
-            <h3>Application Android/IOS</h3>
-            <p class="lead">L'application a été développée en complément du logiciel. <br> Les atouts de l'application
-            </p>
-        </div><!-- end title -->
+          <h3>Application Android/IOS</h3>
+          <p class="lead">
+            L'application a été développée en complément du logiciel. <br />
+            Les atouts de l'application
+          </p>
+        </div>
+        <!-- end title -->
 
         <div class="row">
-            <div class="col-md-4 col-sm-6 col-xs-12">
-                <ul class="features-left">
-                    <li class="wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.2s">
-                        <i class="flaticon-android"></i>
-                        <div class="fl-inner">
-                            <h4>Portabilité </h4>
-                            <p>S'utilise sur le terrain grâce à son utilisation téléphone et tablette. </p>
-                        </div>
-                    </li>
-                    <li class="wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.3s">
-                        <i class="flaticon-binoculars"></i>
-                        <div class="fl-inner">
-                            <h4>nanometer precision</h4>
-                            <p>Retrouver un objet dans ces derniers nanomètres au sein de la zone où il a été
-                                géolocalisé. </p>
-                        </div>
-                    </li>
-                    <li class="wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.4s">
-                        <i class="flaticon-padlock"></i>
-                        <div class="fl-inner">
-                            <h4>Login RGPD friendly</h4>
-                            <p>Systhème de connexion par identifiant et mot de passe. </p>
-                        </div>
-                    </li>
-                </ul>
-            </div>
-            <div class="col-md-4 hidden-xs hidden-sm">
-                <img src="uploads/iphonex.png" class="img-center img-responsive" alt="">
-            </div>
-            <div class="col-md-4 col-sm-6 col-xs-12">
-                <ul class="features-right">
-                    <li class="wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.2s">
-                        <i class="flaticon-pantone"></i>
-                        <div class="fr-inner">
-                            <h4>Features</h4>
-                            <p>Associer et dissocier un beacon à un objet. </p>
-                        </div>
-                    </li>
-                    <li class="wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.3s">
-                        <i class="flaticon-search"></i>
-                        <div class="fr-inner">
-                            <h4>Retrouver votre équipements</h4>
-                            <p>Connaître la zone de recherche. </p>
-                        </div>
-                    </li>
-                    <li class="wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.4s">
-                        <i class="flaticon-line-graph"></i>
-                        <div class="fr-inner">
-                            <h4>ED - endpoint detection</h4>
-                            <p>Retrouver un objet par système de chaud/froid dans la zone de recherche. </p>
-                        </div>
-                    </li>
-                </ul>
-            </div><!-- end col -->
-        </div><!-- end row -->
-    </div><!-- end container -->
-</div>
+          <div class="col-md-4 col-sm-6 col-xs-12">
+            <ul class="features-left">
+              <li
+                class="wow fadeInLeft"
+                data-wow-duration="1s"
+                data-wow-delay="0.2s"
+              >
+                <i class="flaticon-android"></i>
+                <div class="fl-inner">
+                  <h4>Portabilité</h4>
+                  <p>
+                    S'utilise sur le terrain grâce à son utilisation téléphone
+                    et tablette.
+                  </p>
+                </div>
+              </li>
+              <li
+                class="wow fadeInLeft"
+                data-wow-duration="1s"
+                data-wow-delay="0.3s"
+              >
+                <i class="flaticon-binoculars"></i>
+                <div class="fl-inner">
+                  <h4>nanometer precision</h4>
+                  <p>
+                    Retrouver un objet dans ces derniers nanomètres au sein de
+                    la zone où il a été géolocalisé.
+                  </p>
+                </div>
+              </li>
+              <li
+                class="wow fadeInLeft"
+                data-wow-duration="1s"
+                data-wow-delay="0.4s"
+              >
+                <i class="flaticon-padlock"></i>
+                <div class="fl-inner">
+                  <h4>Login RGPD friendly</h4>
+                  <p>Systhème de connexion par identifiant et mot de passe.</p>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-4 hidden-xs hidden-sm">
+            <img
+              src="uploads/iphonex.png"
+              class="img-center img-responsive"
+              alt=""
+            />
+          </div>
+          <div class="col-md-4 col-sm-6 col-xs-12">
+            <ul class="features-right">
+              <li
+                class="wow fadeInRight"
+                data-wow-duration="1s"
+                data-wow-delay="0.2s"
+              >
+                <i class="flaticon-pantone"></i>
+                <div class="fr-inner">
+                  <h4>Features</h4>
+                  <p>Associer et dissocier un beacon à un objet.</p>
+                </div>
+              </li>
+              <li
+                class="wow fadeInRight"
+                data-wow-duration="1s"
+                data-wow-delay="0.3s"
+              >
+                <i class="flaticon-search"></i>
+                <div class="fr-inner">
+                  <h4>Retrouver votre équipements</h4>
+                  <p>Connaître la zone de recherche.</p>
+                </div>
+              </li>
+              <li
+                class="wow fadeInRight"
+                data-wow-duration="1s"
+                data-wow-delay="0.4s"
+              >
+                <i class="flaticon-line-graph"></i>
+                <div class="fr-inner">
+                  <h4>ED - endpoint detection</h4>
+                  <p>
+                    Retrouver un objet par système de chaud/froid dans la zone
+                    de recherche.
+                  </p>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <!-- end col -->
+        </div>
+        <!-- end row -->
+      </div>
+      <!-- end container -->
+    </div>
 
-<div class="parallax section noover" data-stellar-background-ratio="0.7"
-     style="background-image:url('uploads/parallax_05.png');">
-    <div class="container">
+    <div
+      class="parallax section noover"
+      data-stellar-background-ratio="0.7"
+      style="background-image: url('uploads/parallax_05.png')"
+    >
+      <div class="container">
         <div class="row text-center">
-            <div class="col-md-6">
-                <div class="customwidget text-left">
-                    <h1>Interface Web</h1>
-                    <p>L'interface Web développée par Pyrénées Software vous permet de retrouver vos objets dans vos
-                        bâtiments à l'aide d'une carte.</p>
-                    <p>Elle est adaptable, évolutive et personnalisable selon vos envies. <br> Sa simplicité
-                        d'utilisation fait d'elle une force.</p>
-                    <a href="services.html" data-scroll class="btn btn-light btn-radius btn-brd">Voir plus</a>
-                </div>
-            </div><!-- end col -->
-            <div class="col-md-6">
-                <div class="text-center image-center hidden-sm hidden-xs">
-                    <img src="uploads/macbook2.png" alt="" class="img-responsive wow fadeInUp">
-                </div>
+          <div class="col-md-6">
+            <div class="customwidget text-left">
+              <h1>Interface Web</h1>
+              <p>
+                L'interface Web développée par Pyrénées Software vous permet de
+                retrouver vos objets dans vos bâtiments à l'aide d'une carte.
+              </p>
+              <p>
+                Elle est adaptable, évolutive et personnalisable selon vos
+                envies. <br />
+                Sa simplicité d'utilisation fait d'elle une force.
+              </p>
+              <a
+                href="services.html"
+                data-scroll
+                class="btn btn-light btn-radius btn-brd"
+                >Voir plus</a
+              >
             </div>
-        </div><!-- end row -->
-    </div><!-- end container -->
-</div><!-- end section -->
+          </div>
+          <!-- end col -->
+          <div class="col-md-6">
+            <div class="text-center image-center hidden-sm hidden-xs">
+              <img
+                src="uploads/macbook2.png"
+                alt=""
+                class="img-responsive wow fadeInUp"
+              />
+            </div>
+          </div>
+        </div>
+        <!-- end row -->
+      </div>
+      <!-- end container -->
+    </div>
+    <!-- end section -->
 
-<footer class="footer">
-    <div class="container">
+    <footer class="footer">
+      <div class="container">
         <div class="row">
-            <div class="col-md-4 col-sm-4 col-xs-12">
-                <div class="widget clearfix">
-                    <div class="widget-title">
-                        <img src="images/logos/logosigscanb.png" alt=""/>
-                    </div>
-                    <p> Pour faciliter la logistique et le suivi qualité, SIGSCAN a imaginé un système permettant de
-                        localiser un ensemble d’objets au sein d’un bâtiment. La technologie Bluetooth rend cette
-                        solution personnalisable et accessible au plus grand nombre.</p>
-                </div><!-- end clearfix -->
-            </div><!-- end col -->
+          <div class="col-md-4 col-sm-4 col-xs-12">
+            <div class="widget clearfix">
+              <div class="widget-title">
+                <img
+                  style="margin-top: 20px"
+                  src="images/logos/logosigscanb.png"
+                  alt=""
+                />
+              </div>
+              <p>
+                Pour faciliter la logistique et le suivi qualité, SIGSCAN a
+                imaginé un système permettant de localiser un ensemble d’objets
+                au sein d’un bâtiment. La technologie Bluetooth rend cette
+                solution personnalisable et accessible au plus grand nombre.
+              </p>
+            </div>
+            <!-- end clearfix -->
+          </div>
+          <!-- end col -->
 
-            <div class="col-md-4 col-sm-4 col-xs-12">
-                <div class="widget clearfix">
-                    <div class="widget-title">
-                        <h3>Pages</h3>
-                    </div>
+          <div class="col-md-4 col-sm-4 col-xs-12">
+            <div class="widget clearfix">
+              <div class="widget-title">
+                <h3>Pages</h3>
+              </div>
 
-                    <ul class="footer-links hov">
-                        <li><a href="index.html">Accueil <span class="icon icon-arrow-right2"></span></a></li>
-                        <li><a href="services.html">Solution <span class="icon icon-arrow-right2"></span></a></li>
-                        <li><a href="contact.html">Contact <span class="icon icon-arrow-right2"></span></a></li>
-                        <li><a href="https://app.sigscan.eu">Accéder à SIGSCAN<span
-                                class="icon icon-arrow-right2"></span></a></li>
-                    </ul><!-- end links -->
-                </div><!-- end clearfix -->
-            </div><!-- end col -->
+              <ul class="footer-links hov">
+                <li>
+                  <a href="index.html"
+                    >Accueil <span class="icon icon-arrow-right2"></span
+                  ></a>
+                </li>
+                <li>
+                  <a href="services.html"
+                    >Solution <span class="icon icon-arrow-right2"></span
+                  ></a>
+                </li>
+                <li>
+                  <a href="contact.html"
+                    >Contact <span class="icon icon-arrow-right2"></span
+                  ></a>
+                </li>
+                <li>
+                  <a href="https://app.sigscan.eu"
+                    >Accéder à SIGSCAN<span
+                      class="icon icon-arrow-right2"
+                    ></span
+                  ></a>
+                </li>
+              </ul>
+              <!-- end links -->
+            </div>
+            <!-- end clearfix -->
+          </div>
+          <!-- end col -->
 
-            <div class="col-md-4 col-sm-4 col-xs-12">
-                <div class="footer-distributed widget clearfix">
-                    <div class="widget-title">
-                        <h3>Contact</h3>
-                        <p>
-                            <a 
-                            target="_blank" 
-                            href="https://maps.app.goo.gl/emzWWAmV6b14FnFp9" 
-                            style="color: inherit; text-decoration: inherit" >
-                                Adresse : 22 rue Hermès <br />
-                                31520 Ramonville Saint-Agne
-                            </a>
-                        </p>
-                        <p>téléphone : 05 82 95 90 85</p>
-                        <p>Mail : contact@pyrenees-software.com</p>
-                    </div>
+          <div class="col-md-4 col-sm-4 col-xs-12">
+            <div class="footer-distributed widget clearfix">
+              <div class="widget-title">
+                <h3>Contact</h3>
+                <p>
+                  <a
+                    target="_blank"
+                    href="https://maps.app.goo.gl/emzWWAmV6b14FnFp9"
+                    style="color: inherit; text-decoration: inherit"
+                  >
+                    Adresse : 22 rue Hermès <br />
+                    31520 Ramonville Saint-Agne
+                  </a>
+                </p>
+                <p>téléphone : 05 82 95 90 85</p>
+                <p>Mail : contact@pyrenees-software.com</p>
+              </div>
+            </div>
+            <!-- end clearfix -->
+          </div>
+          <!-- end col -->
+        </div>
+        <!-- end row -->
+      </div>
+      <!-- end container -->
+    </footer>
+    <!-- end footer -->
 
-                </div><!-- end clearfix -->
-            </div><!-- end col -->
-        </div><!-- end row -->
-    </div><!-- end container -->
-</footer><!-- end footer -->
+    <a href="#" id="scroll-to-top" class="dmtop global-radius"
+      ><i class="fa fa-angle-up"></i
+    ></a>
 
-<a href="#" id="scroll-to-top" class="dmtop global-radius"><i class="fa fa-angle-up"></i></a>
-
-<!-- ALL JS FILES -->
-<script src="js/all.js"></script>
-<!-- ALL PLUGINS -->
-<script src="js/custom.js"></script>
-<script src="js/portfolio.js"></script>
-<script src="js/hoverdir.js"></script>
-
-</body>
+    <!-- ALL JS FILES -->
+    <script src="js/all.js"></script>
+    <!-- ALL PLUGINS -->
+    <script src="js/custom.js"></script>
+    <script src="js/portfolio.js"></script>
+    <script src="js/hoverdir.js"></script>
+  </body>
 </html>
