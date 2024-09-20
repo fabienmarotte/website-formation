@@ -3183,11 +3183,25 @@ select.mobile-device {
 }
 .about-icon{
 	padding: 20px 0px;
-	transition: all 1s ease-in-out;
+    color: black;
 }
 .about-icon span{
 	font-size: 48px;
 	color: #393939;
+}
+
+.fa-compass{
+    font-size: 48px;
+}
+.fa-mobile-phone:before, .fa-mobile:before {
+    font-size: 48px;
+}
+.bi-bar-chart-fill {
+    font-size: 48px;
+}
+
+.fa-location-arrow{
+    font-size: 48px;
 }
 
 .about-text h3{
