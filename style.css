@@ -468,14 +468,14 @@ a img.aligncenter {
     display: block;
     height: 2px;
     width: 100%;
-    background-color: #dbb12a;
+    background-color: #ffa0dc;
     position: absolute;
     z-index: 100;
     /*transition: transform 0.5s cubic-bezier(0.28, 0, 0.18, 1);
     transform: translateX(-50%) scaleX(1);*/
 }
 .header_style_01 .navbar-default .navbar-nav > li a.line:hover{
-    color: #dbb12a;
+    color: #ffa0dc;
     transition: all 0.8s ease;
 }
 
@@ -492,7 +492,7 @@ a img.aligncenter {
 
 .header_style_01 .navbar-default .navbar-nav > li:active a,
 .header_style_01 .navbar-default .navbar-nav > li:focus a{
-    color: #dbb12a;
+    color: #ffa0dc;
 }
 /*.header_style_01 .navbar-default .navbar-nav > li a::after{
     content: "";
@@ -570,14 +570,14 @@ li.social-links a {
 .main:hover > .main-content {
     display: flex;
     position: absolute;
-    background-color: rgba(255, 255, 255, 1);
+    background-color: #ffa0dc(255, 255, 255, 1);
     max-height: 500px;
     max-width: 100vw;
     line-height: 3.5;
 }
 
 ul.main-content li a.second:hover{
-    color: #dbb12a;
+    color: #ffa0dc;
 }
 
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
@@ -629,7 +629,7 @@ ul.main-content li a.second:hover{
 }
 
 .slide-text h1 {
-    color: #fff;
+    color: #ffa0dc;
     font-size: 60px;
     font-weight: 700;
     text-transform: uppercase;
@@ -639,7 +639,7 @@ ul.main-content li a.second:hover{
 }
 
 .slide-text h1 span{
-	color: #dbb12a;
+	color: #ffa0dc;
 }
 
 .slide-text h2 {
