@@ -55,7 +55,7 @@ body {
 }
 
 body.demos .section {
-    background: url(images/bg.png) repeat top center #f2f3f5;
+    background: url(images/Background.jpg) repeat top center #f2f3f5;
 }
 
 body.demos .section-title img {
@@ -732,7 +732,6 @@ ul.main-content li a.second:hover{
     overflow: hidden;
     position: relative;
     background-position: center center;
-    vertical-align: sub;
     width: 100%;
     z-index: 2;
 }
