@@ -1,0 +1,13 @@
+name: Print my name
+on:
+  pull_request:
+   branches: [ main ]
+
+   Run-on-Windows:
+     name: Run Test on Windows
+     runs-on: self-hosted
+     steps:
+        -uses: actions/checkout@v4
+        -name: Print my name
+ 	 shell: pwsh
+         run: echo ENZO
